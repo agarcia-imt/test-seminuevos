@@ -1,0 +1,55 @@
+<a id="loginBtn">
+
+<input id="emailSignIn">\\testmail_adrian@gmail.com
+<input id="passwordSignIn">\\admin123
+
+<button id="btnLogin">
+
+<li class="cta-btn">
+
+
+inputs
+<a data-activates="dropdown_types">
+  <li data-content="autos">
+
+  <a data-activates="dropdown_brands">
+  <li data-content="acura">
+
+  <a data-activates="dropdown_models">
+  <li data-content="ilx">
+
+  <a data-activates="dropdown_subtypes">
+  <li data-content="sedan">
+
+  <a data-activates="dropdown_years">
+  <li data-content="2018">
+
+  <a data-activates="dropdown_provinces">
+  <li data-content="nuevo leon">
+
+  <a data-activates="dropdown_cities">
+  <li data-content="monterrey">
+
+<input id="input_recorrido">\\ 20000
+
+  <a data-activates="dropdown_mileageType">
+  <li data-content="kms.">
+
+  <input id="input_teléfono"> \\ 8188888888
+
+  <input id="input_precio">  \\input del cliente
+
+<a data-activates="dropdown_negotiable">
+<li data-content="negociable">
+
+<button class="next-button">
+
+<textarea id="input_text_area_review"> \\input del cliente
+
+<input id="Uploader"> \\imagenes del cliente
+
+<button class="next-button"> button.next-button:not(.back)
+
+<a id="cancelButton" class="active-plan">
+
+tomar screenshot
