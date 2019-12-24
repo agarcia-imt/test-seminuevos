@@ -70,7 +70,7 @@ app.post('/', async (req, res) => {
     await page.waitFor('#dropdown_mileageType ul > li[data-content="kms."] a');
     await page.$eval('#dropdown_mileageType ul > li[data-content="kms."] a', btnClick);
 
-    await page.type('input#input_precio', String(body.precio));
+    await page.type('input#input_precio', body.precio);
 
     await page.waitFor('#dropdown_negotiable ul > li[data-content="negociable"] a');
     await page.$eval('#dropdown_negotiable ul > li[data-content="negociable"] a', btnClick);
